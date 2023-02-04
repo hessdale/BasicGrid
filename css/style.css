@@ -1,0 +1,54 @@
+header {
+    height: 10vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+main {
+    max-height: 80vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+}
+
+footer {
+    height: 10vh;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr 1fr));
+}
+p {
+    width: 80%;
+    height: 80%;
+}
+img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+
+#logo {
+    max-height: 100px;
+    max-width: 100px;
+}
+main>section>img {
+object-fit: 10%;
+max-width: 30vh;
+max-height: 30vh;
+}
+
+#contact {
+background-color: aquamarine;
+}
+
+#socials {
+    background-color: rgb(212, 132, 33);
+}
+
+#copywrite {
+    justify-self: end;
+}
+article {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
